@@ -1,22 +1,37 @@
 # Ballerina Bear – Product Content
 # Edit this file to update the Ballerina Bear product page.
+#
+# PURCHASE FLOW ARCHITECTURE:
+# The new Next.js site handles the storefront and product pages.
+# "Buy Now" sends customers to the existing WooCommerce checkout on
+# dancingdots.co.uk, which handles payment and delivers the files below.
+# When the domain is cut over to the new site, WooCommerce continues
+# running on the same IONOS server and handles all transactions.
+#
+# FILE DELIVERY:
+# - MP3s: /wp-content/uploads/ (standard WordPress uploads)
+# - PDFs & videos: /wp-content/uploads/woocommerce_uploads/ (protected,
+#   only delivered via WooCommerce force-download system after purchase)
+#
+# WooCommerce Product ID: 275
 
 seo:
   title: "Ballerina Bear – Pre-school Ballet Syllabus"
-  description: "The complete Ballerina Bear pre-school ballet class package. Lifetime licence, original music, full syllabus, and branding included. One-time cost of £399."
+  description: "The complete Ballerina Bear pre-school ballet class package. Lifetime licence, 11 original music tracks, full syllabus PDF, 11 video tutorials, logos and 6 colour reward charts. One-time cost."
 
 slug: "ballerina-bear"
 name: "Ballerina Bear"
 sku: "0001"
+woocommerce_product_id: 275
+woocommerce_checkout_url: "https://dancingdots.co.uk/product/ballerina-bear"
 image: "/images/ballerina-bear.png"
 category: "ballet"
-price_original: 399.00
-price_sale: 329.00
+price_regular: 375.00
+price_sale: null
 currency: "GBP"
-on_sale: true
-badge: "Sale"
+on_sale: false
 
-short_description: "The little dancers will twirl and spin alongside Ballerina Bear as she shares her enchanting adventures and tales with the children. Through action songs and original music, Ballerina Bear captivates the hearts of young dancers, fostering connection and togetherness."
+short_description: "The little dancers will twirl and spin alongside Ballerina Bear as she shares her enchanting adventures and tales with the children. Through action songs and original music, Ballerina Bear captivates the hearts of young dancers, fostering not only a connection with her but also encouraging interaction and togetherness among the children."
 
 age_range: "2–5 years"
 age_brackets:
@@ -26,13 +41,91 @@ age_brackets:
 
 quote: "It's truly inspiring to observe the enthusiasm of the little dancers as they engage with Ballerina Bear and their classmates."
 
+# ── DOWNLOADABLE ASSETS (31 files) ────────────────────────────
+# Delivered automatically by WooCommerce after purchase.
+# DO NOT share these URLs publicly.
+
+downloads:
+  music:
+    - name: "01-Welcome-song-with-Ballerina-Bear.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/01-Welcome-song-with-Ballerina-Bear.mp3"
+    - name: "02-Good-Toes-Naughty-Toes.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/02-Good-Toes-Naughty-Toes.mp3"
+    - name: "03-Reaching-for-the-Stars.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/03-Reaching-for-the-Stars.mp3"
+    - name: "04-Butterflies.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/04-Butterflies.mp3"
+    - name: "05-Princesses.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/05-Princesses.mp3"
+    - name: "06-Running-Jumping.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/06-Running-Jumping.mp3"
+    - name: "07-Walking-or-Running-on-Toes.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/07-Walking-or-Running-on-Toes.mp3"
+    - name: "08-Twirling.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/08-Twirling.mp3"
+    - name: "09-Skipping-Gallops.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/09-Skipping-Gallops.mp3"
+    - name: "10-Plies-Rises-Port-de-bras.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/10-Plies-Rises-Port-de-bras.mp3"
+    - name: "11-Goodbye-Ballerina-Bear.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/11-Goodbye-Ballerina-Bear.mp3"
+
+  syllabus:
+    - name: "Ballerina Bear Syllabus"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Ballerina-Bear-Syllabus-mgqrrb.pdf"
+
+  branding:
+    - name: "Logo - PNG"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/05/Ballerina-Bear.png"
+    - name: "Logo - JPG"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/Ballerina-Bear-logo.jpg"
+
+  reward_charts:
+    - name: "Reward Chart - Yellow"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Bal-Bear-YELLOW-Reward-adfzxg.pdf"
+    - name: "Reward Chart - Red"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Bal-Bear-RED-Reward-copy-eeqeht.pdf"
+    - name: "Reward Chart - Purple"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Bal-Bear-PURPLE-Reward-588lju.pdf"
+    - name: "Reward Chart - Orange"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Bal-Bear-ORANGE-Reward-thp0iv.pdf"
+    - name: "Reward Chart - Green"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Bal-Bear-GREEN-Reward-m6fsda.pdf"
+    - name: "Reward Chart - Blue"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Bal-Bear-BLUE-Reward-syxm52.pdf"
+
+  video_tutorials:
+    - name: "1. Video tutorial – Welcome song"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/1.-Video-tutorial-BB-welcome-song-mp4-i1ddxd.mp4"
+    - name: "2. Video tutorial – Good Toes & Naughty Toes"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/2.-Video-tutorial-BB-Goodtoes-naughty-toes-e8uykc.mp4"
+    - name: "3. Video tutorial – Reaching for the Stars"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/3.-Video-tutorial-BB-reaching-for-the-stars-kll00g.mp4"
+    - name: "4. Video tutorial – Butterflies"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/4.-Video-tutorial-BB-Butterflies-p9xkqh.mp4"
+    - name: "5. Video tutorial – Princesses/Princes"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/5.-Video-tutorial-BB-PrincessesPrinces-coztoh.mp4"
+    - name: "6. Video tutorial – Running & Jumping"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/6.-Video-tutorial-BB-running-jumping-bqfhhi.mp4"
+    - name: "7. Video tutorial – Walking/Running on Toes"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/7.-Video-tutorial-BB-walkingrunning-on-toes-cdwfv1.mp4"
+    - name: "8. Video tutorial – Twirling"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/8.-Video-tutorial-BB-twirliing-bqfhhi.mp4"
+    - name: "9. Video tutorial – Skipping & Galloping"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/9.-Video-tutorial-BB-skipping-galloping-onstne.mp4"
+    - name: "10. Video tutorial – Pliés, Rises & Port de Bras"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/10.-Video-tutorial-BB-Plies-rises-port-de-bras-hc4qph.mp4"
+    - name: "11. Video tutorial – Goodbye Ballerina Bear"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/11.-Video-tutorial-BB-Goodbye-o6kebw.mp4"
+
 package_includes:
   - "Lifetime licence to teach Ballerina Bear"
-  - "Full downloadable syllabus"
-  - "Complete access to the Ballerina Bear brand and logo"
-  - "Original music tracks for class – no music licence required (PRS)"
+  - "Full downloadable syllabus (PDF)"
+  - "11 original music tracks – no PRS licence required"
+  - "11 video tutorials for every class exercise"
+  - "Ballerina Bear logo (PNG & JPG)"
+  - "6 colour reward charts (PDF)"
   - "Advertising materials"
-  - "Child reward charts"
 
 key_points:
   - title: "Lifetime Licence"

@@ -1,0 +1,56 @@
+# Home Page Content
+# Edit this file to update the Dancing Dots homepage.
+# After saving, the site rebuilds automatically on Vercel.
+
+seo:
+  title: "Dancing Dots – Pre-school Dance Class Syllabuses"
+  description: "Let Ballerina Bear and Hip Hop Hippo guide your little dancers through the magical world of ballet and hip hop. Complete pre-school dance packages with lifetime licences."
+
+hero:
+  heading: "Welcome to Dancing Dots"
+  subheading: "Your Ultimate Pre-school Dance Solution"
+  body: "Let Ballerina Bear and Hip Hop Hippo guide your little dancers through the magical world of ballet and hip hop. Our dance class packages are carefully crafted to enhance children's confidence, creativity, social skills, and coordination, all while learning the fundamentals of ballet or dance techniques. Plus, with a one-time cost and a lifetime licence, you can enjoy the benefits of Dancing Dots for as long as you teach!"
+  cta_primary:
+    label: "Shop Now"
+    href: "/shop"
+  cta_secondary:
+    label: "Learn More"
+    href: "/about"
+
+classes:
+  heading: "Our Classes"
+  items:
+    - name: "Ballerina Bear"
+      description: "Enchanting ballet adventures for little dancers aged 2–5."
+      href: "/shop/ballerina-bear"
+      image: "/images/ballerina-bear.png"
+      color: "pink"
+    - name: "Hip Hop Hippo"
+      description: "Funky street moves and groovy beats for budding hip hop stars."
+      href: "/shop/hip-hop-hippo"
+      image: "/images/hip-hop-hippo.png"
+      color: "lavender"
+
+features:
+  - icon: "📦"
+    title: "Comprehensive Dance Class Solutions"
+    body: "Everything you need to kickstart your dance classes is included – from syllabus and music to logos, advertising materials, and child reward charts. Hit the ground dancing with ease and confidence!"
+  - icon: "🌍"
+    title: "Available Internationally"
+    body: "We own the copyright for our syllabus, logos, and music, ensuring unrestricted international use. All materials are delivered electronically upon checkout for your convenience."
+  - icon: "🩰"
+    title: "Created by Dance Teachers"
+    body: "Our syllabus is meticulously crafted by dance teachers who understand the needs of businesses like yours. Ensuring you never have to plan a pre-school dance class again."
+
+stats:
+  - label: "Ballerina Bear Classes Taught"
+    value: "500+"
+  - label: "Hip Hop Hippo Classes Taught"
+    value: "400+"
+  - label: "Dance Schools Using Our Syllabi"
+    value: "200+"
+
+testimonial:
+  quote: "It's truly inspiring to observe the enthusiasm of the little dancers as they engage with the characters and their classmates."
+  author: "Andi McCormack"
+  role: "Dance School Owner"

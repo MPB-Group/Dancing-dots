@@ -1,0 +1,46 @@
+# About Page Content
+# NOTE: The original site had placeholder/lorem ipsum content here.
+# This has been replaced with content aligned to the Dancing Dots brand.
+# Update the fields below with real team information when ready.
+
+seo:
+  title: "About Us"
+  description: "Dancing Dots was created by dance teachers, for dance teachers. Learn about our mission to support pre-school dance educators worldwide with complete, affordable class packages."
+
+hero:
+  heading: "About Dancing Dots"
+  subheading: "Created by dance teachers, for dance teachers."
+  body: "We know how much goes into running a dance school. That's why we created Dancing Dots – a complete, ready-to-teach pre-school dance solution that lets you spend less time planning and more time dancing."
+
+mission:
+  heading: "Our Mission"
+  body: "Dancing Dots exists to support dance school businesses by providing high-quality, affordable pre-school syllabuses with a lifetime licence. Unlike other providers who charge annual fees, we believe dance teachers deserve fair, transparent pricing and complete creative freedom."
+
+story:
+  heading: "Our Story"
+  body: "Dancing Dots was born out of frustration. As working dance teachers, we saw how much time and money was being spent on annual licensing fees for pre-school syllabuses that felt overpriced and over-complicated. We set out to build something better: two loveable characters – Ballerina Bear and Hip Hop Hippo – with complete class packages that any dance teacher could pick up and teach from day one."
+
+values:
+  - icon: "💛"
+    title: "Fair Pricing"
+    body: "One price, one licence, forever. No annual renewals, no hidden fees."
+  - icon: "🎓"
+    title: "Made by Teachers"
+    body: "Every element of our syllabus has been tested in real dance classes."
+  - icon: "🌍"
+    title: "Globally Available"
+    body: "Our copyright is fully owned by us, meaning you can teach anywhere in the world."
+  - icon: "🤝"
+    title: "Teacher Support"
+    body: "We're here to help you succeed. Reach out any time."
+
+# ── TEAM ──────────────────────────────────────────────────────
+# Replace placeholder entries with real team members.
+# Remove entries or add new ones as needed.
+team:
+  heading: "Meet the Team"
+  members:
+    - name: "Coming Soon"
+      role: "Founder"
+      image: "/images/placeholder-team.png"
+      bio: "Update this with a real team member."

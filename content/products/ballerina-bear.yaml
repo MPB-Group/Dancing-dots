@@ -1,0 +1,52 @@
+# Ballerina Bear – Product Content
+# Edit this file to update the Ballerina Bear product page.
+
+seo:
+  title: "Ballerina Bear – Pre-school Ballet Syllabus"
+  description: "The complete Ballerina Bear pre-school ballet class package. Lifetime licence, original music, full syllabus, and branding included. One-time cost of £399."
+
+slug: "ballerina-bear"
+name: "Ballerina Bear"
+sku: "0001"
+image: "/images/ballerina-bear.png"
+category: "ballet"
+price_original: 399.00
+price_sale: 329.00
+currency: "GBP"
+on_sale: true
+badge: "Sale"
+
+short_description: "The little dancers will twirl and spin alongside Ballerina Bear as she shares her enchanting adventures and tales with the children. Through action songs and original music, Ballerina Bear captivates the hearts of young dancers, fostering connection and togetherness."
+
+age_range: "2–5 years"
+age_brackets:
+  - "2–3 Years"
+  - "3–4 Years"
+  - "4–5 Years"
+
+quote: "It's truly inspiring to observe the enthusiasm of the little dancers as they engage with Ballerina Bear and their classmates."
+
+package_includes:
+  - "Lifetime licence to teach Ballerina Bear"
+  - "Full downloadable syllabus"
+  - "Complete access to the Ballerina Bear brand and logo"
+  - "Original music tracks for class – no music licence required (PRS)"
+  - "Advertising materials"
+  - "Child reward charts"
+
+key_points:
+  - title: "Lifetime Licence"
+    body: "While other providers offer annual licensing, Dancing Dots provides a lifetime licence. No renewal fees – ever."
+  - title: "Cost-Effective"
+    body: "One upfront cost vs ongoing annual subscriptions. The savings over time are undeniable."
+  - title: "Created by Dance Teachers"
+    body: "Crafted by real dance educators who understand what running a pre-school class actually requires."
+  - title: "No Overpricing"
+    body: "We believe in fair, affordable solutions. We're not interested in charging 'market rate' for something dance teachers need."
+  - title: "Optional Enhancements"
+    body: "Additional materials are available at extra cost, but are entirely optional. We never pressure our customers."
+  - title: "International Use"
+    body: "We own the copyright on all materials. You can teach Ballerina Bear anywhere in the world."
+
+related_products:
+  - "hip-hop-hippo"

@@ -1,0 +1,61 @@
+# Refund, Returns & Privacy Policy Content
+# Effective Date: January 01, 2024
+
+seo:
+  title: "Refund, Returns & Privacy Policy"
+  description: "Dancing Dots refund policy, returns information, and privacy policy. All products are digital downloads. Please read before purchasing."
+
+# ── PRIVACY POLICY ────────────────────────────────────────────
+privacy:
+  effective_date: "January 01, 2024"
+  sections:
+    - title: "Introduction"
+      body: "Welcome to Dancing Dots. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website (dancingdots.co.uk) and tell you about your privacy rights and how the law protects you."
+
+    - title: "Data We Collect About You"
+      body: |
+        We may collect, use, store, and transfer different kinds of personal data about you, including:
+        - **Identity Data:** first name, last name, username or similar identifier.
+        - **Contact Data:** email address, telephone numbers.
+        - **Technical Data:** IP address, browser type and version, time zone, OS and platform, and other device information.
+        - **Usage Data:** information about how you use our website, products, and services.
+        - **Marketing and Communications Data:** your preferences in receiving marketing from us.
+
+    - title: "How We Collect Your Data"
+      body: |
+        - **Direct interactions:** You may give us your Identity, Contact, and Financial Data by filling in forms or by corresponding with us by post, phone, email, or otherwise.
+        - **Automated technologies or interactions:** As you interact with our website, we may automatically collect Technical Data about your equipment, browsing actions, and patterns via cookies and server logs.
+        - **Third parties or publicly available sources:** We may receive personal data about you from various third parties and public sources.
+
+    - title: "How We Use Your Personal Data"
+      body: |
+        We will only use your personal data when the law allows us to:
+        - To register you as a new customer.
+        - To process and deliver your order.
+        - To manage your relationship with us.
+        - To administer and protect our business and this website.
+        - To deliver relevant website content and advertisements to you.
+        - To use data analytics to improve our website, products, and services.
+        - To make suggestions and recommendations to you about products that may be of interest.
+
+    - title: "Disclosures of Your Personal Data"
+      body: "We may share your personal data with IT service providers, professional advisers, and HMRC or regulatory authorities where required. Third-party service providers are bound by confidentiality agreements and cannot use your information for any other purpose. While we take reasonable measures to protect your personal information, no data transmission over the internet can be guaranteed to be 100% secure."
+
+# ── REFUND POLICY ─────────────────────────────────────────────
+refunds:
+  effective_date: "January 01, 2024"
+  sections:
+    - title: "Digital Products"
+      body: "All of our products, including syllabi, music, logos, advertising material, and child reward charts, are delivered as digital downloads. Once the purchase is completed, you will receive immediate access to the intellectual property."
+
+    - title: "No Refunds"
+      body: "As our products are digital and the intellectual property is shared upon purchase, we cannot offer refunds. This policy is in place because, once the product is downloaded, it cannot be returned in the same way as a physical product."
+
+    - title: "Product Issues"
+      body: "If you encounter any issues with your purchase, such as technical difficulties or incomplete downloads, please contact us immediately at hello@dancingdots.co.uk. We are dedicated to resolving any problems to ensure you receive the full value of your purchase."
+
+    - title: "Customer Satisfaction"
+      body: "Your satisfaction is important to us. While we do not offer refunds, we are committed to providing excellent customer service and support. If you have any questions or concerns about our products, please reach out to us."
+
+    - title: "Contact Us"
+      body: "If you have any questions about our refund policy, please contact us at: hello@dancingdots.co.uk"

@@ -1,20 +1,35 @@
 # Hip Hop Hippo – Product Content
 # Edit this file to update the Hip Hop Hippo product page.
+#
+# PURCHASE FLOW ARCHITECTURE:
+# The new Next.js site handles the storefront and product pages.
+# "Buy Now" sends customers to the existing WooCommerce checkout on
+# dancingdots.co.uk, which handles payment and delivers the files below.
+# When the domain is cut over to the new site, WooCommerce continues
+# running on the same IONOS server and handles all transactions.
+#
+# FILE DELIVERY:
+# - MP3s: /wp-content/uploads/ (standard WordPress uploads)
+# - PDFs & videos: /wp-content/uploads/woocommerce_uploads/ (protected,
+#   only delivered via WooCommerce force-download system after purchase)
+#
+# WooCommerce Product ID: 276
 
 seo:
   title: "Hip Hop Hippo – Pre-school Hip Hop Dance Syllabus"
-  description: "The complete Hip Hop Hippo pre-school dance class package. Lifetime licence, original music, full syllabus, and branding included. One-time cost of £329."
+  description: "The complete Hip Hop Hippo pre-school dance class package. Lifetime licence, 10 original music tracks, full syllabus PDF, 10 video tutorials, logo and 6 colour reward charts. One-time cost."
 
 slug: "hip-hop-hippo"
 name: "Hip Hop Hippo"
 sku: "0002"
+woocommerce_product_id: 276
+woocommerce_checkout_url: "https://dancingdots.co.uk/product/hip-hop-hippo"
 image: "/images/hip-hop-hippo.png"
 category: "hip-hop"
-price_original: 399.00
-price_sale: 329.00
+price_regular: 375.00
+price_sale: null
 currency: "GBP"
-on_sale: true
-badge: "Sale"
+on_sale: false
 
 short_description: "Little dancers dive into the world of funky street moves, grooving to the latest music. They unleash their creativity, enhance coordination, and connect with their classmates — guided by Hip Hop Hippo's exciting adventures and action-packed songs."
 
@@ -26,13 +41,85 @@ age_brackets:
 
 quote: "It's truly inspiring to see their confidence grow as they engage, exchange high-fives with Hip Hop Hippo, and connect with their classmates."
 
+# ── DOWNLOADABLE ASSETS (28 files) ────────────────────────────
+# Delivered automatically by WooCommerce after purchase.
+# DO NOT share these URLs publicly.
+
+downloads:
+  music:
+    - name: "01-Welcome-song-with-Hip-Hop-Hippo.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/01-Welcome-song-with-Hip-Hop-Hippo.mp3"
+    - name: "02-Warmup-1.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/02-Warmup-1.mp3"
+    - name: "03-Warm-up-2.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/03-Warm-up-2.mp3"
+    - name: "04-Combo-1-Puppets-Pancakes.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/04-Combo-1-Puppets-Pancakes.mp3"
+    - name: "05-Combo-2-Questions-Pigeon-Toes.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/05-Combo-2-Questions-Pigeon-Toes.mp3"
+    - name: "06-Combo-3-Fans-Shakes-Rolls.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/06-Combo-3-Fans-Shakes-Rolls.mp3"
+    - name: "07-Floor-Combo.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/07-Floor-Combo.mp3"
+    - name: "08-Run-Jump.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/08-Run-Jump.mp3"
+    - name: "09-Circle-time-with-Hip-Hop-Hippo.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/09-Circle-time-with-Hip-Hop-Hippo.mp3"
+    - name: "10-Goodbyes-High-Fives-with-Hip-Hop-Hippo.mp3"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/08/10-Goodbyes-High-Fives-with-Hip-Hop-Hippo.mp3"
+
+  syllabus:
+    - name: "Hip Hop Hippo Syllabus"
+      url: "https://dancingdots.co.uk/wp-content/uploads/2024/07/Hip-Hop-Hippo-Syllabus-pdf.pdf"
+
+  branding:
+    - name: "Logo - PNG"
+      url: "http://dancingdots.co.uk/wp-content/uploads/2019/05/Hip-Hop-Hippo.png"
+
+  reward_charts:
+    - name: "Reward Chart - Yellow"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Hippo-YELLOW-Reward-ltddjy.pdf"
+    - name: "Reward Chart - Red"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Hippo-RED-Reward-copy-9wbkkm.pdf"
+    - name: "Reward Chart - Purple"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Hippo-PURPLE-Reward-jdnxzv.pdf"
+    - name: "Reward Chart - Orange"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Hippo-ORANGE-Reward-80kiyh.pdf"
+    - name: "Reward Chart - Green"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Hippo-GREEN-Reward-8ju14m.pdf"
+    - name: "Reward Chart - Blue"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/Hippo-BLUE-Reward-c7nr89.pdf"
+
+  video_tutorials:
+    - name: "1. Video tutorial – Welcome song"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/1.-Video-tutorial-HHH-Welcome-song-yovhjl.mp4"
+    - name: "2. Video tutorial – Warm up 1"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/2.-Video-tutorial-HHH-Warm-up-1-1ivqhi.mp4"
+    - name: "3. Video tutorial – Warm up 2"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/3.-Video-tutorial-HHH-Warm-up-2-ybtozo.mp4"
+    - name: "4. Video tutorial – Combo 1"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/4.-Video-tutorial-HHH-Combo-1-oaifle.mp4"
+    - name: "5. Video tutorial – Combo 2"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/5.-Video-tutorial-HHH-combo-2-a3cd33.mp4"
+    - name: "6. Video tutorial – Combo 3"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/6.-Video-tutorial-HHH-Combo-3-pfbuln.mp4"
+    - name: "7. Video tutorial – Combo 4"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/7.-Video-tutorial-HHH-combo-4-xjcbme.mp4"
+    - name: "8. Video tutorial – Run & Jump"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/8.-Video-tutorial-HHH-run-jump-sebtnw.mp4"
+    - name: "9. Video tutorial – Circle time"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/9.-Video-tutorial-HHH-Circle-time-5jzy22.mp4"
+    - name: "10. Video tutorial – Goodbye & High Five"
+      url: "https://dancingdots.co.uk/wp-content/uploads/woocommerce_uploads/2019/05/10.-Video-tutorial-HHH-goodbye-High-five-nbzrvn.mp4"
+
 package_includes:
   - "Lifetime licence to teach Hip Hop Hippo"
-  - "Full downloadable syllabus"
-  - "Complete access to the Hip Hop Hippo brand and logo"
-  - "Original music tracks for class – no music licence required (PRS)"
+  - "Full downloadable syllabus (PDF)"
+  - "10 original music tracks – no PRS licence required"
+  - "10 video tutorials for every class exercise"
+  - "Hip Hop Hippo logo (PNG)"
+  - "6 colour reward charts (PDF)"
   - "Advertising materials"
-  - "Child reward charts"
 
 key_points:
   - title: "Lifetime Licence"
